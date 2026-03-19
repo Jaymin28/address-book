@@ -126,15 +126,15 @@ Where R = 6371 km (Earth's mean radius). Accuracy is sufficient for all practica
 curl -X POST http://localhost:8000/address \
   -H "Content-Type: application/json" \
   -d '{
-    "city": "Surat",
-    "country": "India",
-    "latitude": 21.230639,
-    "longitude": 72.821389,
-    "name": "Home",
-    "postal_code": "395004",
-    "state": "Gujarat",
-    "street": "123 Main Street"
-  }'
+      "city": "Surat",
+      "country": "India",
+      "latitude": 21.230639,
+      "longitude": 72.821389,
+      "name": "Home",
+      "postal_code": "395004",
+      "state": "Gujarat",
+      "street": "123 Main Street"
+    }'
 ```
 
 ### Seeding sample addresses
