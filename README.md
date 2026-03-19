@@ -43,7 +43,7 @@ A minimal FastAPI application for managing addresses with SQLite persistence and
 - Python 3.10 or later
 - `pip`
 
-### 1 — Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Jaymin28/address-book.git
