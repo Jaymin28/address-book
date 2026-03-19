@@ -126,14 +126,14 @@ Where R = 6371 km (Earth's mean radius). Accuracy is sufficient for all practica
 curl -X POST http://localhost:8000/address \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "Eiffel Tower",
-    "street": "Champ de Mars, 5 Avenue Anatole France",
-    "city": "Paris",
-    "state": "Île-de-France",
-    "country": "France",
-    "postal_code": "75007",
-    "latitude": 48.8584,
-    "longitude": 2.2945
+    "city": "Surat",
+    "country": "India",
+    "latitude": 21.230639,
+    "longitude": 72.821389,
+    "name": "Home",
+    "postal_code": "395004",
+    "state": "Gujarat",
+    "street": "123 Main Street"
   }'
 ```
 
